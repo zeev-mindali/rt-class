@@ -41,7 +41,7 @@ int main(void) {
                     printf("next day:%02d/%02d/%02d",1,month+1,year);
                 }
             } else {
-                //leaped year
+                //non-leaped year
                 if (day<28){
                     printf("Next day:%02d %02d %02d",day+1,month,year);
                 } else {
