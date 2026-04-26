@@ -244,7 +244,6 @@ int add_numbers_without_plus_sign(void) {
       Mathematically, 10−3 is exactly the same as 10+(−3).
       Because we already know how to "Add" using XOR and AND, we just apply that same logic to our negative number.
 */
-#include <stdio.h>
 
 int subtraction(void) {
    int num1, num2;
