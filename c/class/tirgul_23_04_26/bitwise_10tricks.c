@@ -511,7 +511,7 @@ int toggle_numbers(void) {
       we had 4 iteration so there are 4 bits up.
 */
 
-int main(void) {
+int count_set_bits(void) {
    int original = 45;      // Binary: 101101
    int temp = original;    // Create a copy to manipulate
    int count = 0;
